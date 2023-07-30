@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travelers",
+  "info": {
+    "singularName": "traveler",
+    "pluralName": "travelers",
+    "displayName": "Traveler"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "address": {
+      "type": "text"
+    }
+  }
+}
