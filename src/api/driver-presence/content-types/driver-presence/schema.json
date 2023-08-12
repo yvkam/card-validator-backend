@@ -4,7 +4,8 @@
   "info": {
     "singularName": "driver-presence",
     "pluralName": "driver-presences",
-    "displayName": "DriverPresence"
+    "displayName": "DriverPresence",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -13,9 +14,6 @@
   "attributes": {
     "cardNumber": {
       "type": "string"
-    },
-    "presence": {
-      "type": "boolean"
     }
   }
 }
