@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "driver_presences",
+  "info": {
+    "singularName": "driver-presence",
+    "pluralName": "driver-presences",
+    "displayName": "DriverPresence"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cardNumber": {
+      "type": "string"
+    },
+    "presence": {
+      "type": "boolean"
+    }
+  }
+}
